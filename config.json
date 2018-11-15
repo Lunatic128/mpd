@@ -1,0 +1,38 @@
+{
+    "algo": "cryptonight",
+    "api": {
+        "port": 48080,
+        "access-token": null,
+        "worker-id": null,
+        "ipv6": false,
+        "restricted": true
+    },
+    "av": 0,
+    "background": true,
+    "colors": false,
+    "cpu-affinity": null,
+    "cpu-priority": 4,
+    "donate-level": 1,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": ".log",
+    "max-cpu-usage": 90,
+    "pools": [
+        {
+            "url": "xmr-eu1.nanopool.org:14444",
+            "user": "44Mm6iKEpEcH4tm7HDYhNd1WskK1eyKrYSox3UHUujVqDDLZZHeEFgZHmhibnPPzMahW1tunsXbR8ERVFMpSmzcqLerX9xr",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "threads": null
+}
